@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="50%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <radialGradient id="r1" cx="30%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="rgba(200,170,130,0.4)"/>
+      <stop offset="100%" stop-color="rgba(200,170,130,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g1)"/>
+  <rect width="800" height="600" fill="url(#r1)"/>
+  <g stroke="rgba(200,170,130,0.3)" fill="none" stroke-width="1">
+    <circle cx="200" cy="300" r="80"/>
+    <circle cx="200" cy="300" r="120"/>
+    <circle cx="200" cy="300" r="160"/>
+    <line x1="80" y1="300" x2="320" y2="300"/>
+    <line x1="200" y1="180" x2="200" y2="420"/>
+  </g>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="120" fill="rgba(200,170,130,0.5)" font-weight="200">∑</text>
+</svg>
